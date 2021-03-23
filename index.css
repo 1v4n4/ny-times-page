@@ -35,6 +35,8 @@
  body {
     font-family: 'Times New Roman', Times, serif;
 } 
+
+}
 #top-img {
   height: 30px;
   width: auto;
@@ -85,8 +87,7 @@ margin: auto;
 
 main {
   clear: both;
-  
-}
+  }
 #space {
 
 }
