@@ -53,12 +53,6 @@ a {
   text-decoration: underline;
 }
 
-.short-line {
-  color: #d3d3d3;
-  width: 70px;
-}
-
-
 /* body font */
 
 body {
@@ -70,7 +64,7 @@ body {
 }
 
 
-/*header style */
+/* header style */
 
 #space {
   font-family: Arial, Helvetica, sans-serif;
@@ -97,9 +91,9 @@ body {
   padding: 5px;
   font-family: 'Times New Roman', Times, serif;
   width: 90%;
-  margin: 0px 100px 0 100px;
+  margin-right: 100px;
+  margin-left: 100px;
   position: fixed;
-  border: 1px, solid, #d3d3d3;
   background-color: #fff;
 }
 
@@ -240,8 +234,6 @@ h1 {
 /*chart style*/
 
 #chart {
-  height: fit-content;
-  width: fit-content;
   margin-right: -300px;
   margin-left: -350px;
   background: #fff;
@@ -274,7 +266,6 @@ h3 {
 
 iframe {
   border: none;
-  height: fit-content;
   width: 100%;
 }
 
@@ -304,7 +295,6 @@ iframe {
   height: 40px;
   margin-right: 30px;
 }
-
 
 /* aside style */
 
@@ -345,8 +335,7 @@ iframe {
   text-decoration: underline;
 }
 
-
-/*footer css */
+/* footer css */
 
 #foot-nav {
   width: 63%;
@@ -379,12 +368,10 @@ label {
 .a-lot-big {
   font-size: 12px;
   color: #333;
-  text-justify: left;
 }
 
 .a-lot-small {
   font-size: 11px;
-  text-justify: left;
   margin-left: 10px;
 }
 
