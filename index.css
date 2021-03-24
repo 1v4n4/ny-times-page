@@ -410,10 +410,7 @@ iframe {
 
 #big-container {
   display: grid;
-  grid-template-areas: 
-    "a a a d"
-    "b b b d"
-    "c c c d";
+  grid-template-areas: "a a a d" "b b b d" "c c c d";
   width: 63%;
   height: auto;
   margin: auto;
@@ -506,9 +503,7 @@ iframe {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 
-    "h i j"
-    "k l m";
+  grid-template-areas: "h i j" "k l m";
 }
 
 #more-article1 {
