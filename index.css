@@ -412,10 +412,9 @@ iframe {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr, 2fr, 1fr;
-  grid-template-areas: 
-    "a a a d"
-    "b b b d"
-    "c c c d";
+  grid-template-areas: "a a a d"
+                       "b b b d"
+                       "c c c d";
   width: 63%;
   height: auto;
   margin: auto;
@@ -455,9 +454,9 @@ iframe {
 #newsletters-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "e f g";  
+  grid-template-areas: "e f g";  
 }
+
 .dont {
 color: #333;
 }
@@ -501,16 +500,15 @@ color: #333;
 .n-letter {
   padding: 15px;
   border: 1px solid #d3d3d3;
-  margin: 20px 10px 20px 10px;  
+  margin: 20px 10px 20px 10px;
 }
 
 #more-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 
-    "h i j"
-    "k l m";
+  grid-template-areas: "h i j"
+                       "k l m";
 }
 
 #more-article1 {
@@ -527,8 +525,8 @@ color: #333;
 
 #more-article4 {
   grid-area: k;
-
 }
+
 #more-article5 {
   grid-area: l;
 }
@@ -539,7 +537,7 @@ color: #333;
 
 .b {
   padding: 15px;
-  margin: 10px 5px 10px 5px;  
+  margin: 10px 5px 10px 5px;
 }
 
 .more-img {
@@ -573,8 +571,7 @@ color: #333;
 #picks-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: 
-    "n o p";
+  grid-template-areas: "n o p";
 }
 
 #picks-article1 {
