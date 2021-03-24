@@ -63,7 +63,6 @@ body {
   line-height: 28px;
 }
 
-
 /* header style */
 
 #space {
@@ -131,7 +130,6 @@ body {
   height: 30px;
   top: 0%;
 }
-
 
 /* main style */
 
@@ -230,8 +228,7 @@ h1 {
   text-align: center;
 }
 
-
-/*chart style*/
+/* chart style */
 
 #chart {
   margin-right: -300px;
