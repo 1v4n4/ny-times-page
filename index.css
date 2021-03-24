@@ -410,8 +410,6 @@ iframe {
 
 #big-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr, 2fr, 1fr;
   grid-template-areas: "a a a d"
                        "b b b d"
                        "c c c d";
