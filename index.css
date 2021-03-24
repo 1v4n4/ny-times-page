@@ -1,39 +1,5 @@
-<style>
-/* prefixing flexbox */
-@mixin flexbox() {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  }
+/* general stuff */
   
-@mixin flex($values) {
-  -webkit-box-flex: $values;
-  -moz-box-flex:  $values;
-  -webkit-flex:  $values;
-  -ms-flex:  $values;
-  flex:  $values;
-  }
-  
-@mixin order($val) {
-  -webkit-box-ordinal-group: $val;  
-  -moz-box-ordinal-group: $val;     
-  -ms-flex-order: $val;     
-  -webkit-order: $val;  
-  order: $val;
-  }
-  
-.wrapper {
-  @include flexbox();
-  }
- 
-.item {
-  @include flex(1 200px);
-  @include order(2);
-  }
-
-  /* general stuff */
 .clear-float {
   clear:both;
   }
@@ -73,6 +39,12 @@ a {
 .gray-no-underline:hover {
   text-decoration: underline;
 }
+
+.short-line {
+  color:#d3d3d3;
+  width: 70px;
+}
+
   /* body font */
 
 body {
@@ -105,7 +77,6 @@ body {
   justify-content: space-between;
   justify-self: center;
   padding: 5px;
-  heigth: 30px;
   font-family: 'Times New Roman', Times, serif;
   width: 90%;
   margin: 0px 100px 0 100px;
@@ -138,7 +109,7 @@ body {
 
 .sub-log {
   background-color: #567b95;
-  border: 1px solid #32689;
+  border: 1px solid rgb(50, 104, 145);
   border-radius: 10%;
   font-size: 11px;
   color: white;
@@ -235,9 +206,37 @@ font-weight: bold;
 text-align: center;
 }
 
-.short-line {
-  color:#d3d3d3;
-  width: 70px;
+/*chart style*/
+#chart {
+  height: fit-content;
+  width: fit-content;
+  margin-right: -300px;
+  margin-left: -350px;
+  background: #fff;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+
+}
+#inflation-grid {
+  display: grid;
+  background-image: url("pics/chart1.png");
+  background-size: auto;
+  width:1399px;
+  height: 853px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  row-gap: 60px;
+  
+}
+.p-chart {
+  font-size: 18px;
+  }
+
+.left-justify {
+float: left;
+margin-top: -20px;
 }
 
 #down-fig {
