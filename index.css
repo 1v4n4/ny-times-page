@@ -298,7 +298,7 @@ iframe {
 #aside-bar {
   float: right;
   margin-right: -250px;
-  margin-top: -1300%;
+  margin-top: -1440%;
   font-size: 15px;
 }
 
@@ -410,9 +410,10 @@ iframe {
 
 #big-container {
   display: grid;
-  grid-template-areas: "a a a d"
-                       "b b b d"
-                       "c c c d";
+  grid-template-areas: 
+    "a a a d"
+    "b b b d"
+    "c c c d";
   width: 63%;
   height: auto;
   margin: auto;
@@ -452,11 +453,11 @@ iframe {
 #newsletters-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "e f g";  
+  grid-template-areas: "e f g";
 }
 
 .dont {
-color: #333;
+  color: #333;
 }
 
 #n-letter1 {
@@ -505,8 +506,9 @@ color: #333;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "h i j"
-                       "k l m";
+  grid-template-areas: 
+    "h i j"
+    "k l m";
 }
 
 #more-article1 {
