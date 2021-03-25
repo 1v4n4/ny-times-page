@@ -89,9 +89,9 @@ body {
   justify-self: center;
   padding: 5px;
   font-family: 'Times New Roman', Times, serif;
-  width: 90%;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
   position: fixed;
   background-color: #fff;
 }
