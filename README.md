@@ -10,6 +10,8 @@ Additional description about the project and its features
 
 Built with HTML and CSS, no frameworks.
 
+Live Demo Link: https://1v4n4.github.io/ny-times-page/
+
 Getting Started
 
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
