@@ -604,7 +604,11 @@ h2 {
   padding-bottom: 20px;
 }
 
-#mail, 
+#mail {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
 #name {
   width: 200px;
   margin-bottom: 15px;
@@ -622,7 +626,10 @@ textarea {
   margin-top: -129px;
 }
 
-legend, 
+legend {
+  font-style: italic;
+}
+
 #sub {
   font-style: italic;
 }
