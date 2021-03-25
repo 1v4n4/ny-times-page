@@ -257,6 +257,43 @@
                 <br>
                 <span class="article-end">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="#">Order Reprints</a> | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a></span>
                 <br>
+                <form id="ux-form">
+                    <h2>Your opinion is important to us!</h2>
+                    <ul>
+                        <li class="li-form"><label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" name="users-name" required maxlength="20"></li>
+                        <li><label for="mail">E-mail</label>
+                        <br>
+                        <input type="email" id="mail" name="users-email" required></li>
+                        <li id="li-right"><label for="comment">Message</label>
+                        <br>
+                        <textarea id="comment" name="users-message" required maxlength="250">Place your comment here</textarea></li>
+                    </ul>
+                    <div class="clear-float"></div>
+                    <fieldset id="check">
+                        <legend>What is your overall opinion about this article?</legend>
+                        <ul id="checkboxes">
+                            <li>
+                                <label for="positive"><input class="radio" type="radio" name="positive" id="positive" checked>
+                                Positive</label>
+                            </li>
+                            <li>
+                                <label for="negative"><input class="radio" type="radio" name="negative" id="negative">
+                                Negative</label>
+                            </li>                        
+                            <li>
+                                <label for="neutral"><input class="radio" type="radio" name="neutral" id="neutral">
+                                Neutral</label>
+                            </li>                                
+                        </ul>
+                    </fieldset>
+                    <fieldset>                        
+                        <label id="sub" for="subscription"><input class="radio" type="checkbox" id="subscription" name="subscription">I want to subscribe to the newsletter</label>
+                    </fieldset>
+                    <button id="send" type="submit">Send</button>
+                </form>
+                <br>
                 <div id="under-article">
                     <ul class="social-networks">
                         <li class="inline"><button id="comments-btn" type="submit">READ 615 COMMENTS</button></li>
