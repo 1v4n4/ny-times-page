@@ -604,24 +604,26 @@ h2 {
   padding-bottom: 20px;
 }
 
-#mail, #name {
+#mail, 
+#name {
   width: 200px;
   margin-bottom: 15px;
 }
 
 textarea {
   width: 250px;
-  height: 86px; 
-  border-radius: 2%;  
+  height: 86px;
+  border-radius: 2%;
   border: 1px solid #d3d3d3;
 }
 
 #li-right {
-float: right;
-margin-top: -129px;
+  float: right;
+  margin-top: -129px;
 }
 
-legend, #sub {
+legend, 
+#sub {
   font-style: italic;
 }
 
