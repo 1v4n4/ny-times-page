@@ -1,12 +1,17 @@
-﻿# ny-times-page
+﻿Project Name: ny-times-page
+
+Project statement
 
 My first Microverse project is recreating a page for The New York Times article. I tried to put many details and to include all parts of an original. The final product looks pretty similar, but it is not responsive at all. 
 
 ![screenshot](https://user-images.githubusercontent.com/65791349/112313447-22bae480-8ca8-11eb-9075-e0c49fa76d6b.png)
 
+Additional description about the project and its features
+
 Built with HTML and CSS, no frameworks.
 
 Getting Started
+
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
 To get a local copy up and running follow these simple example steps.
