@@ -1,4 +1,4 @@
-﻿Project Name: ny-times-page
+﻿Project Name: New York Times page clone
 
 Project statement
 
